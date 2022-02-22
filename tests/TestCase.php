@@ -4,7 +4,6 @@ namespace Shoket\LaravelShoket\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Shoket\LaravelShoket\LaravelShoketServiceProvider;
 
 class TestCase extends Orchestra
 {

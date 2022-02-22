@@ -2,9 +2,9 @@
 
 namespace Shoket\LaravelShoket;
 
+use Shoket\LaravelShoket\Commands\LaravelShoketCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Shoket\LaravelShoket\Commands\LaravelShoketCommand;
 
 class LaravelShoketServiceProvider extends PackageServiceProvider
 {
