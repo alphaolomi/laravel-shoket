@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
+namespace Shoket\LaravelShoket\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

@@ -1,17 +1,18 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "shoket/laravel-shoket",
+    "description": "Laravel Shoket Intergation",
     "keywords": [
-        ":vendor_name",
+        "payment",
+        "shoket",
         "laravel",
-        ":package_slug"
+        "laravel-shoket"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/shoket/laravel-shoket",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Alpha Olomi",
+            "email": "alphaolomi@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Shoket\\LaravelShoket\\": "src",
+            "Shoket\\LaravelShoket\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Shoket\\LaravelShoket\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Shoket\\LaravelShoket\\ShoketServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelShoket": "Shoket\\LaravelShoket\\Facades\\Shoket"
             }
         }
     },
