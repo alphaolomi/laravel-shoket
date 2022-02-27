@@ -5,8 +5,6 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/alphaolomi/laravel-shoket/Check%20&%20fix%20styling?label=code%20style)](https://github.com/shoket/laravel-shoket/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/shoket/laravel-shoket.svg?style=flat-square)](https://packagist.org/packages/shoket/laravel-shoket)
 
-> 🚧 This is a work in progress.
-
 A simple integration of Shoket's Payments API into your Laravel application.
 
 ## Installation

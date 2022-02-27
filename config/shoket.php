@@ -1,5 +1,5 @@
 <?php
-// config for Shoket/LaravelShoket
-return [
 
+return [
+    'apiSecret' => env('SHOKET_API_SECRET'),
 ];
