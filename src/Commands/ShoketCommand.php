@@ -8,7 +8,7 @@ use Illuminate\Console\Command;
  * Class LaravelShoketCommand
  * @package Shoket\LaravelShoket\Commands
  */
-class LaravelShoketCommand extends Command
+class ShoketCommand extends Command
 {
     public $signature = 'laravel-shoket';
 
