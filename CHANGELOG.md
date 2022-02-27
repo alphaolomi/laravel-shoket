@@ -2,6 +2,19 @@
 
 All notable changes to `laravel-shoket` will be documented in this file.
 
+## v0.0.2 - 2022-02-27
+
+## What's Changed
+
+- feat: 🎸 update package by @alphaolomi in https://github.com/alphaolomi/laravel-shoket/pull/6
+- chore: bump laravel version by @alphaolomi in https://github.com/alphaolomi/laravel-shoket/pull/7
+
+## New Contributors
+
+- @alphaolomi made their first contribution in https://github.com/alphaolomi/laravel-shoket/pull/6
+
+**Full Changelog**: https://github.com/alphaolomi/laravel-shoket/compare/v0.0.1...v0.0.2
+
 ## 0.0.1 - 2022-02-22
 
 ## What's Changed
