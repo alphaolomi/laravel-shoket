@@ -13,7 +13,7 @@ class ShoketServiceProvider extends PackageServiceProvider
     {
         // Register a class in the service container
         $this->app->bind('shoket', function () {
-            if (!config('shoket.apiSecret')) {
+            if (! config('shoket.apiSecret')) {
                 throw new \Exception('You must set the SHOKET_API_SECRET env variable.');
             }
 

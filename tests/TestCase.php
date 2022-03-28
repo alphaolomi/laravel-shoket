@@ -7,7 +7,6 @@ use Shoket\LaravelShoket\ShoketServiceProvider;
 
 class TestCase extends Orchestra
 {
-
     protected function getPackageProviders($app): array
     {
         return [ShoketServiceProvider::class,];
