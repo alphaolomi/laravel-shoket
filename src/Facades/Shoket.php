@@ -1,11 +1,11 @@
 <?php
 
-namespace Shoket\LaravelShoket\Facades;
+namespace Shoket\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Shoket\LaravelShoket\LaravelShoket
+ * @see \Shoket\Laravel\Laravel
  */
 class Shoket extends Facade
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Shoket\LaravelShoket\Tests;
+namespace Shoket\Laravel\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Shoket\LaravelShoket\ShoketServiceProvider;
+use Shoket\Laravel\ShoketServiceProvider;
 
 class TestCase extends Orchestra
 {

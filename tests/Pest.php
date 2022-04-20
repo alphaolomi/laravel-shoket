@@ -1,5 +1,5 @@
 <?php
 
-use Shoket\LaravelShoket\Tests\TestCase;
+use Shoket\Laravel\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

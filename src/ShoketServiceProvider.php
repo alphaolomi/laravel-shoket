@@ -1,8 +1,9 @@
 <?php
 
-namespace Shoket\LaravelShoket;
+namespace Shoket\Laravel;
 
-use Shoket\LaravelShoket\Commands\ShoketCommand;
+use Shoket\Laravel\Commands\AcceptPayment;
+use Shoket\Laravel\Commands\VerifyPayment;
 use Shoket\SDK\Shoket;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -13,11 +14,11 @@ class ShoketServiceProvider extends PackageServiceProvider
     {
         // Register a class in the service container
         $this->app->bind('shoket', function () {
-            if (! config('shoket.apiSecret')) {
+            if (!config('shoket.apiSecret')) {
                 throw new \Exception('You must set the SHOKET_API_SECRET env variable.');
             }
 
-            return new Shoket();
+            return new Shoket(['apiSecret' => config('shoket.apiSecret')]);
         });
     }
 
@@ -27,6 +28,7 @@ class ShoketServiceProvider extends PackageServiceProvider
         $package
             ->name('shoket')
             ->hasConfigFile('shoket')
-            ->hasCommand(ShoketCommand::class);
+            ->hasCommand(AcceptPayment::class)
+            ->hasCommand(VerifyPayment::class);
     }
 }
