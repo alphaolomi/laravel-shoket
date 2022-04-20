@@ -5,7 +5,6 @@ namespace Shoket\Laravel\Commands;
 use Illuminate\Console\Command;
 use Shoket\Laravel\Facades\Shoket;
 
-
 /**
  * Class VerifyPayment
  * @package Shoket\Laravel\Commands
