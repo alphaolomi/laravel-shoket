@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-shoket` will be documented in this file.
 
+## v0.0.3 - 2022-04-20
+
+## What's Changed
+
+- chore(deps): bump actions/checkout from 2 to 3 by @dependabot in https://github.com/alphaolomi/laravel-shoket/pull/11
+
+**Full Changelog**: https://github.com/alphaolomi/laravel-shoket/compare/v0.0.2...v0.0.3
+
 ## v0.0.2 - 2022-02-27
 
 ## What's Changed
