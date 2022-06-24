@@ -19,7 +19,7 @@
     "require": {
         "php": "^8.0|^8.1",
         "illuminate/contracts": "^8.0|^9.0",
-        "shoket/php-shoket": "^0.0.4",
+        "shoket/php-shoket": "^0.x",
         "spatie/laravel-package-tools": "^1.9.2"
     },
     "require-dev": {
